@@ -37,7 +37,7 @@
   border-radius: 20;
   background-color: gray;
   color: #fff;
-  border: 2px solid orange;
+  border: 2px solid rgb(255, 165, 0);
   /* border-radius: 50px; */
   box-sizing: border-box;
   text-shadow: 1px 1px 2px #000;

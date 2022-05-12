@@ -70,7 +70,7 @@ class App extends Component {
             <div id="services" className="keyboard_body">
                 {/* <MusicalAdsApp/> */}
                 <div className="s-heading">
-                    <h3>You can practice typing to get used to with Magar Lipi letter keys.</h3>
+                    <h3>Magar Lama Keyboard</h3>
                     {/* <p></p> */}
                 </div>
                 {/* <h2><img src={Logo} style={{ height: 80, width: 80, color: '#0cc' }} alt="logo" /> Practice typing to get used-to with Magar Akkha-Rika Letters.</h2> */}
@@ -89,14 +89,14 @@ class App extends Component {
                             "{tab} q w e r t y u i o p [ ] \\",
                             "{lock} a s d f g h j k l ; ' {enter}",
                             "{shift} z x c v b n m , . / {shift}",
-                            "nAkY {space} mEJOr kAnYz ||B||"
+                            "mEJOr {space} V B ||B||"
                         ],
                         shift: [
                             "~ ! @ # $ % ^ & * ( ) _ + {bksp}",
                             "{tab} Q W E R T Y U I O P { } |",
                             '{lock} A S D F G H J K L : " {enter}',
                             "{shift} Z X C V B N M < > ? {shift}",
-                            "nAkY {space} mEJOr kAnYz ||B||"
+                            "mEJOr {space} V B ||B||"
                         ]
                     }}
                     display={{
