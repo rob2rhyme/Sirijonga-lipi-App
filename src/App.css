@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+/* @font-face {
+  font-family: "Gurbachhan";
+  src: local("Gurbachhan"),
+    url(/src/assets/Fonts/Akkha-Rika-Lipi-Lama1.woff) format("woff");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Fragrance_local";
+  src: local("Fragrance_local"),
+    url(/src/assets/Fonts/FragmentCoreRom.woff) format("woff");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "Neon";
+  src: local("Neon"), url(/src/assets/Fonts/Neon80s.woff) format("woff");
+} */
+
+@font-face {
+  font-family: "Gurbachhan";
+  src: local("Gurbachhan"),
+    url(./assets/Fonts/Akkha-Rika-Lipi-Lama1.woff) format("woff");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.keyboard_body {
+  color: #fff;
+  margin-left: 1%;
+  margin-right: 3%;
+  font-size: larger;
+  font-family: Fragrance_local;
+  line-height: 50px;
+}
+.keyboard_input {
+  width: 100%;
+  height: 200px;
+  font-size: 25px;
+  font-family: Gurbachhan;
+  border-radius: 20;
+  background-color: gray;
+  color: #fff;
+  border: 2px solid orange;
+  /* border-radius: 50px; */
+  box-sizing: border-box;
+  text-shadow: 1px 1px 2px #000;
+  /* margin-bottom: 5px; */
+  padding: 5px;
+}
+
+.simple-keyboard {
+  max-width: 100%;
+  font-family: Gurbachhan;
+  background-color: #111;
+  color: #000;
+  border: 2px solid orange;
+}
+
+.simple-keyboard.hg-theme-default.myTheme {
+  border: 5px solid #0cc;
+  border-radius: 10px;
+  /* margin-top: 5px; */
+  /* margin: 10px; */
+  width: calc(100% - 20px);
+}
+
+.simple-keyboard.hg-layout-default .hg-button.hg-gray {
+  background: grey;
+  color: white;
+  font-family: Gurbachhan;
+  font-size: 30;
+}
+
+.simple-keyboard.myTheme1 .hg-button:active {
+  background: orange;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.s-heading h3 {
+  color: orange;
+  font-size: 2rem;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Neon";
+  font-weight: 900 !important;
+  padding-bottom: 10px;
+  /* font-style: italic !important; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.s-heading p {
+  color: var(--highlight);
+  font-size: 1rem;
+  margin: 0px;
+  padding: 0px;
+}
+.s-heading {
+  text-align: center;
+  margin: 5px 0px;
+}
+@media (max-width: 970px) {
+  .s-heading {
+    font-size: smaller;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width: 400px) {
+  .keyboard_body {
+    background-size: 390px !important;
+    align-self: center;
+    top: 25%;
+    font-size: 10px;
   }
+}
+@media (max-width: 376px) {
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

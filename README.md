@@ -68,4 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # Akkha-Rika-Keyboard-for-Lama
+
+git remote add origin https://github.com/rob2rhyme/Akkha-Rika-Keyboard-for-Lama.git
+git branch -M main
+git push -u origin main
