@@ -69,7 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-# Akkha-Rika-Keyboard-for-Lama
+# Sirijonga-Keyboard
 
 git remote add origin https://github.com/rob2rhyme/Sirijonga-lipi-App.git
 git branch -M main
